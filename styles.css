@@ -218,22 +218,25 @@ h1, h2, h3, h4 {
   max-width: 1279px;
   width: 100%;
   display: flex;
+  justify-content: space-between;
 }
 
 .services-txt > p {
   max-width: 636px;
   margin-left: 6%;
   padding: 22px 0;
+  padding-right: 10px;
   line-height: 35px;
   font-size: 20px;
 }
 
 .services-txt-right {
+  max-width: 386px;
+  width: 100%;
   min-width: 270px;
   background-color: #0A6579;
   color: #fff;
   padding: 22px;
-  margin-left: 176px;
 }
 
 .services-txt-right h3 {
@@ -246,6 +249,16 @@ h1, h2, h3, h4 {
   font-size: 13px;
   margin-top: 12px;
   display: block;
+}
+
+@media (max-width: 767px) {
+  .services-txt {
+    flex-direction: column;
+  }
+  
+  .services-txt-right {
+    max-width: 100%;
+  }
 }
 
 .cards {
