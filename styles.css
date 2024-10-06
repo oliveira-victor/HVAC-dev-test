@@ -343,7 +343,6 @@ h1, h2, h3, h4 {
 .specialist {
   background-color: #F5F5F5;
   margin-top: 72px;
-  display: flex;
 }
 
 .specialist img {
@@ -352,10 +351,12 @@ h1, h2, h3, h4 {
   max-height: 503px;
   height: 100%;
   object-fit: cover;
+  margin: 0 auto;
 }
 
 .specialist-txt-container {
   width: 100%;
+  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -385,6 +386,7 @@ h1, h2, h3, h4 {
 /* --- BRANCH --- */
 .branch {
   margin-top: 54px;
+  padding: 0 10px;
 }
 
 .branch-title {
@@ -502,4 +504,5 @@ h1, h2, h3, h4 {
 .copyright a {
   color: #fff;
   font-weight: 300;
+  text-wrap: nowrap;
 }
