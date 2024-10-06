@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/svg+xml" href="/favico.svg" />
+  <title>SearchKings Web Developer Project</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header class="header main-container row">
+    <h1 class="col-4"><img src="./assets/images/logo.png" alt="HVAC logo"></h1>
+    <div class="company-info col">
+      <button type="button" class="header-icon"><img src="./assets/images/pin_drop-2.svg" alt="Pin drop icon"></button>
+      <div>
+        <span class="info-big-txt">Location</span>
+        <span class="info-small-txt">Subline</span>
+      </div>
+    </div>
+    <div class="company-info col">
+      <button type="button" class="header-icon"><img src="./assets/images/call.svg" alt="Phone icon"></button>
+      <div>
+        <span class="info-small-txt">Call Us Now</span>
+        <span class="info-big-txt">555-555-5555</span>
+      </div>
+    </div>
+    <button type="button" class="col header-btn">24/7 emergency service</button>
+  </header>
+  <nav class="main-menu">
+    <ul class="menu-list main-container">
+      <li>
+        <a href="#">Shop Now</a>
+      </li>
+      <li>
+        <a href="#">HVAC Repairs</a>
+      </li>
+      <li>
+        <a href="#">Installations</a>
+      </li>
+      <li>
+        <a href="#">Promotions</a>
+      </li>
+      <li>
+        <a href="#">About Us</a>
+      </li>
+      <li>
+        <a href="#">Contact Us</a>
+      </li>
+      <li class="cart-container">
+        <a href="#">
+          <span class="notification"></span>
+          <img src="./assets/images/shopping_cart.svg" alt="Shopping cart icon">
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <section class="hero main-container">
+    <div class="hero-content">
+      <p class="hero-txt-small">Locally owned and operated since 1992</p>
+      <p class="hero-txt-big">Heating & Cooling <br />Experts</p>
+      <ul class="hero-list">
+        <li>
+          <img class="tick" src="./assets/images/tick.svg" alt="Tick icon">
+          Qualified, experienced technicians
+        </li>
+        <li>
+          <img class="tick" src="./assets/images/tick.svg" alt="Tick icon">
+          Licensed and insured
+        </li>
+        <li>
+          <img class="tick" src="./assets/images/tick.svg" alt="Tick icon">
+          Experts in HVAC and ductwork
+        </li>
+        <li>
+          <img class="tick" src="./assets/images/tick.svg" alt="Tick icon">
+          Money back guarantee
+        </li>
+      </ul>
+      <button class="hero-btn" type="button">Connect with a Specialist</button>
+    </div>
+    <button class="chat-btn">
+      <img src="./assets/images/speaker_notes.svg" alt="Chat icon">
+    </button>
+  </section>
+
+  <section class="main-container services">
+    <p class="pre-title">In Need of a Repair?</p>
+    <h2 class="services-title">Services & Solutions</h2>
+    <div class="services-txt">
+      <p>
+        If you are facing a breakdown, need an emergency repair, or unsure if your systems are operating efficiently, we
+        are available 24/7 to answer your questions and get you back to comfort.
+      </p>
+      <div class="services-txt-right">
+        <h3 class="promotion">[Current Month] Repair Promotion: </h3>
+        <p>
+          20% discount on repairs for veterans, first responders and their families* <br /><span
+            class="small-txt">*Conditions</span>
+        </p>
+      </div>
+    </div>
+    <div class="cards">
+      <div class="card-container card-content-big">
+        <div class="card-img-container">
+          <img src="./assets/images/ductless.svg" alt="Ductless icon">
+        </div>
+        <h3>Ductless<br /><span class="card-subtitle">Repair & Service</span></h3>
+      </div>
+      <div class="card-container card-content-big">
+        <div class="card-img-container">
+          <img src="./assets/images/maintenance.svg" alt="Maintenance icon">
+        </div>
+        <h3>Maintenance<br /><span class="card-subtitle">Preventative Solutions</span></h3>
+      </div>
+      <div class="card-container vertical-cards">
+        <div class="card-small">
+          <div class="card-small-icon">
+            <img src="./assets/images/mail.svg" alt="Mail icon">
+          </div>
+          <div class="card-small-txt">
+            <h3>Send us a Message</h3>
+            <p>Unsure what you require or what system you have?</p>
+          </div>
+        </div>
+        <div class="card-small">
+          <div class="card-small-icon">
+            <img src="./assets/images/phone.svg" alt="Mail icon">
+          </div>
+          <div class="card-small-txt">
+            <h3>Call our Experts</h3>
+            <span class="phone-number">555-555-5555</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="main-container specialist">
+    <img src="./assets/images/Left-image.png" alt="Specialist man smiling and taking notes">
+    <div class="specialist-txt-container">
+      <div class="specialist-txt">
+        <h3>Your Local Heating & Cooling Specialist</h3>
+        <p>We provide customer experience that goes beyond the ordinary and expected.</p>
+        <p>Our trained and certified technicians are trained to solve any heating or cooling need and stand behind our
+          work with a 100% satisfaction guarantee.</p>
+        <p>
+          <a href="#">
+            Learn more about us
+          </a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Branch Locator Section: We have provided the HTML below to guide and help you in developing the code for this section -->
+  <section class="container branch">
+    <h2 class="branch-title">Branch Locator</h2>
+    <div class="row">
+      <div class="col-4">
+        <div id="branch-1" class="branch-btn active">4051 Gordon Baker Rd.<br />Scarborough, ON M1W 2P3</div>
+        <div id="branch-2" class="branch-btn">3602 Gilmore Way<br />Burnaby Unit, BC V5G 4W7</div>
+      </div>
+      <div class="col-8 map">
+        <iframe id="map1"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.1807504322505!2d-79.34041072322796!3d43.81061007109505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d373b2a1e6c9%3A0x8e5854394a5bce26!2sSearchKings!5e0!3m2!1sen!2sca!4v1726233530989!5m2!1sen!2sca"
+          height="100%" width="100%"></iframe>
+        <iframe id="map2" class="hide-map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2604.2785180398973!2d-123.01277268758312!3d49.252166671268874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548676de3848227b%3A0x7b0e9487b987faad!2s3602%20Gilmore%20Wy%2C%20Burnaby%2C%20BC%20V5G%204W9!5e0!3m2!1sen!2sca!4v1728179888996!5m2!1sen!2sca"
+          width="100%" height="100%"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section class="sponsor">
+    <img src="./assets/images/nate.png" alt="Nate logo">
+    <img src="./assets/images/BBB-logo.png" alt="BBB logo">
+    <img src="./assets/images/Group 11.png" alt="Google customer Reviews logo">
+    <img src="./assets/images/trane-logo.png" alt="Trane logo">
+  </section>
+
+  <footer class="footer">
+    <div class="main-container footer-container">
+      <img class="footer-logo" src="./assets/images/logo-white.png" alt="HVAC logo white">
+      <div class="footer-info-container ">
+        <div class="company-info">
+          <button type="button" class="footer-icon"><img src="./assets/images/pin_drop.svg"
+              alt="Pin drop icon"></button>
+          <div>
+            <span class="info-big-txt">Location</span>
+            <span class="info-small-txt">Subline</span>
+          </div>
+        </div>
+        <div class="company-info">
+          <button type="button" class="footer-icon"><img src="./assets/images/phone.svg" alt="Phone icon"></button>
+          <div>
+            <span class="info-small-txt">Call Us Now</span>
+            <span class="info-big-txt">555-555-5555</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright © 2023 [Company Name]. All Rights Reserved. <a href="#">Privacy Policy</a></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+  <script src="./scripts.js"></script>
+</body>
+
+</html>
