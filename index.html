@@ -40,42 +40,48 @@
       </div>
       <button type="button" class="col header-btn">24/7 emergency service</button>
     </header>
-    <nav class="main-menu">
-      <ul class="menu-list main-container">
-        <li>
-          <a class="menu-item" href="#">Shop Now <span class="material-symbols-outlined">arrow_drop_down</span></a>
-        </li>
-        <li>
-          <a class="menu-item" href="#">HVAC Repairs <span class="material-symbols-outlined">arrow_drop_down</span></a>
-        </li>
-        <li>
-          <a class="menu-item" href="#">Installations</a>
-        </li>
-        <li>
-          <a class="menu-item" href="#">Promotions</a>
-        </li>
-        <li>
-          <a class="menu-item" href="#">About Us <span class="material-symbols-outlined">arrow_drop_down</span></a>
-        </li>
-        <li>
-          <a class="menu-item" href="#">Contact Us</a>
-        </li>
-        <li class="cart-container">
-          <a href="#">
-            <span class="notification"></span>
-            <img src="./assets/images/shopping_cart.svg" alt="Shopping cart icon">
-          </a>
-        </li>
-      </ul>
-    </nav>
+    <menu class="main-menu">
+      <div class="navbar navbar-expand-lg container">
+
+        <button data-bs-toggle="collapse" data-bs-target="#menu" type="button" class="navbar-toggler">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <nav class="collapse navbar-collapse" id="menu">
+          <ul class="nav navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop Now</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">HVAC Repairs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Installations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Promotions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Item</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </menu>
 
     <!-- HERO -->
-    <section class="hero main-container">
+    <section class="hero container">
       <div class="hero-content">
         <p class="hero-txt-small">Locally owned and operated since 1992</p>
         <p class="hero-txt-big title">Heating & Cooling <br />Experts</p>
         <ul class="hero-list">
-          <li>
+          <li class="nav-item">
             <img class="tick" src="./assets/images/tick.svg" alt="Tick icon">
             Qualified, experienced technicians
           </li>
