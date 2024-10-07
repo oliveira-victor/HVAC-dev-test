@@ -15,6 +15,14 @@ body {
   font-family: "Albert Sans", system-ui;
 }
 
+.material-symbols-outlined {
+  font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+}
+
 p {
   margin: 0;
 }
@@ -105,12 +113,14 @@ h1, h2, h3, h4 {
   gap: 30px;
 }
 
-.menu-list a {
+.menu-item {
   color: #fff;
   font-size: 16px;
   font-weight: bold;
   text-decoration: none;
   transition: all .2s ease;
+  display: flex;
+  align-items: center;
 }
 
 .menu-list a:hover {
