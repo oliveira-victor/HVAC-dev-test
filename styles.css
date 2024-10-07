@@ -364,7 +364,6 @@ h1, h2, h3, h4 {
 
 /* --- SPECIALIST --- */
 .specialist {
-  background-color: #F5F5F5;
   margin-top: 72px;
   display: flex;
   flex-wrap: wrap;
@@ -386,6 +385,7 @@ h1, h2, h3, h4 {
 }
 
 .specialist-txt-container {
+  background-color: #F5F5F5;
   width: 100%;
   padding: 20px;
   display: flex;
